@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Travel Explorer</title>
+    <link rel="stylesheet" href="./style/contact.css">
+    <link rel="stylesheet" href="./style/booking.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation (same as homepage) -->
+
+    <section class="contact-hero">
+        <div class="contact-hero-content">
+            <h1>Get In Touch</h1>
+            <p>We're here to help and answer any questions you might have</p>
+        </div>
+    </section>
+
+    <section class="contact-container">
+        <div class="contact-form-container">
+            <h2>Send Us a Message</h2>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="contact-name">Your Name *</label>
+                    <input type="text" id="contact-name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="contact-email">Email Address *</label>
+                    <input type="email" id="contact-email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="contact-subject">Subject</label>
+                    <select id="contact-subject">
+                        <option>General Inquiry</option>
+                        <option>Booking Question</option>
+                        <option>Custom Tour Request</option>
+                        <option>Feedback</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="contact-message">Your Message *</label>
+                    <textarea id="contact-message" rows="6" required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+        
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <div class="info-card">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3>Our Office</h3>
+                        <p>123 Travel Street<br>Adventure City, AC 12345</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h3>Phone</h3>
+                        <p>+1 (555) 123-4567</p>
+                        <p>Mon-Fri: 9am-6pm EST</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p>info@travelexplorer.com</p>
+                        <p>bookings@travelexplorer.com</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="emergency-contact">
+                <h3>Emergency Contact</h3>
+                <p>For urgent matters during your trip, please call our 24/7 support line:</p>
+                <p class="emergency-number">+1 (555) 987-6543</p>
+            </div>
+            
+            <div class="social-contact">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215573291234!2d-73.987844924164!3d40.74844047138913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1689876543210!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="contact-faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <button class="faq-question">
+                    How do I book a tour?
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>You can book directly through our website by selecting your desired tour and following the booking process, or you can contact our customer service team who will be happy to assist you with your reservation.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">
+                    What is your cancellation policy?
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Our cancellation policy varies by tour. Generally, we offer free cancellation up to 30 days before departure with a full refund. Between 30-15 days before departure, a 50% refund is available. No refunds are given within 15 days of departure. Please check the specific terms for your selected tour.</p>
+                </div>
+            </div>
+            <!-- More FAQ items -->
+        </div>
+    </section>
+
+    <!-- Footer (same as homepage) -->
+
+    <script src="./script/contact.js"></script>
+</body>
+</html>

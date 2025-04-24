@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Italian Adventure Tour | Travel Explorer</title>
+    <link rel="stylesheet" href="./style/tour.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation (same as homepage) -->
+
+    <section class="tour-hero">
+        <div class="tour-hero-content">
+            <h1>Italian Adventure</h1>
+            <div class="tour-meta">
+                <span><i class="fas fa-map-marker-alt"></i> Italy</span>
+                <span><i class="fas fa-calendar-alt"></i> 8 days</span>
+                <span><i class="fas fa-users"></i> Small group (max 12)</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="tour-main">
+        <div class="tour-overview">
+            <div class="tour-highlights">
+                <h2>Tour Highlights</h2>
+                <ul>
+                    <li><i class="fas fa-check"></i> Guided tour of the Colosseum in Rome</li>
+                    <li><i class="fas fa-check"></i> Gondola ride in Venice</li>
+                    <li><i class="fas fa-check"></i> Wine tasting in Tuscany</li>
+                    <li><i class="fas fa-check"></i> Skip-the-line access to Vatican Museums</li>
+                    <li><i class="fas fa-check"></i> Authentic Italian cooking class</li>
+                </ul>
+            </div>
+            
+            <div class="tour-booking-card">
+                <div class="price-section">
+                    <span class="from">From</span>
+                    <span class="price">$1,499</span>
+                    <span class="per-person">per person</span>
+                </div>
+                <div class="dates-section">
+                    <label for="tour-date">Select Date:</label>
+                    <select id="tour-date">
+                        <option>May 15 - May 22, 2023</option>
+                        <option>June 5 - June 12, 2023</option>
+                        <option>July 10 - July 17, 2023</option>
+                    </select>
+                </div>
+                <div class="group-size">
+                    <label for="group-size">Travelers:</label>
+                    <select id="group-size">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div>
+                <button class="book-now-btn">Book Now</button>
+                <div class="quick-info">
+                    <p><i class="fas fa-clock"></i> Instant confirmation</p>
+                    <p><i class="fas fa-credit-card"></i> Pay over time available</p>
+                    <p><i class="fas fa-headset"></i> 24/7 customer support</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="tour-details-tabs">
+            <div class="tab-buttons">
+                <button class="tab-btn active" data-tab="itinerary">Itinerary</button>
+                <button class="tab-btn" data-tab="included">What's Included</button>
+                <button class="tab-btn" data-tab="accommodation">Accommodation</button>
+                <button class="tab-btn" data-tab="reviews">Reviews</button>
+            </div>
+            
+            <div class="tab-content active" id="itinerary">
+                <div class="day-itinerary">
+                    <h3>Day 1: Arrival in Rome</h3>
+                    <p>Welcome to Italy! Upon arrival at Rome's Fiumicino Airport, you'll be transferred to your hotel. After some time to relax, meet your tour guide and fellow travelers for a welcome dinner at a traditional Roman restaurant.</p>
+                </div>
+                <div class="day-itinerary">
+                    <h3>Day 2: Exploring Rome</h3>
+                    <p>Today you'll discover the highlights of the Eternal City, including the Colosseum, Roman Forum, and Pantheon. Enjoy free time in the afternoon to explore at your leisure before an evening food tour through Trastevere.</p>
+                </div>
+                <!-- More days would follow -->
+            </div>
+            
+            <div class="tab-content" id="included">
+                <h3>What's Included</h3>
+                <div class="included-excluded">
+                    <div class="included">
+                        <h4>Included:</h4>
+                        <ul>
+                            <li><i class="fas fa-check"></i> All accommodation (7 nights in 4-star hotels)</li>
+                            <li><i class="fas fa-check"></i> Daily breakfast and 3 dinners</li>
+                            <li><i class="fas fa-check"></i> All transportation between cities</li>
+                            <li><i class="fas fa-check"></i> Professional English-speaking guide</li>
+                            <li><i class="fas fa-check"></i> All entrance fees to mentioned sites</li>
+                        </ul>
+                    </div>
+                    <div class="excluded">
+                        <h4>Not Included:</h4>
+                        <ul>
+                            <li><i class="fas fa-times"></i> International flights</li>
+                            <li><i class="fas fa-times"></i> Travel insurance</li>
+                            <li><i class="fas fa-times"></i> Personal expenses</li>
+                            <li><i class="fas fa-times"></i> Tips for guides and drivers</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Other tab contents would follow -->
+        </div>
+    </section>
+
+    <!-- Similar Tours Section -->
+    <section class="similar-tours">
+        <h2>You Might Also Like</h2>
+        <div class="similar-tours-grid">
+            <!-- Similar tour cards would go here -->
+        </div>
+    </section>
+
+    <!-- Newsletter (same as homepage) -->
+    <!-- Footer (same as homepage) -->
+
+    <script src="tour-details.js"></script>
+</body>
+</html>

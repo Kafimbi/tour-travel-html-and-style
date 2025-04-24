@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Destinations | Travel Explorer</title>
+    <link rel="stylesheet" href="./style/destyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation (same as homepage) -->
+    <nav class="navbar">
+        <!-- Copy from homepage -->
+    </nav>
+
+    <section class="destinations-header">
+        <h1>Explore Our Destinations</h1>
+        <p>Discover the world's most amazing places with our curated selection of destinations</p>
+    </section>
+
+    <section class="destinations-filters">
+        <div class="filter-container">
+            <div class="filter-group">
+                <label for="region">Region</label>
+                <select id="region">
+                    <option value="all">All Regions</option>
+                    <option value="europe">Europe</option>
+                    <option value="asia">Asia</option>
+                    <option value="americas">Americas</option>
+                    <option value="africa">Africa</option>
+                    <option value="oceania">Oceania</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="interest">Interest</label>
+                <select id="interest">
+                    <option value="all">All Interests</option>
+                    <option value="beach">Beach</option>
+                    <option value="mountain">Mountain</option>
+                    <option value="city">City</option>
+                    <option value="adventure">Adventure</option>
+                    <option value="cultural">Cultural</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="budget">Budget</label>
+                <select id="budget">
+                    <option value="all">Any Budget</option>
+                    <option value="low">$ - Budget</option>
+                    <option value="medium">$$ - Mid-range</option>
+                    <option value="high">$$$ - Luxury</option>
+                </select>
+            </div>
+            <button class="apply-filters">Apply Filters</button>
+        </div>
+    </section>
+
+    <section class="all-destinations">
+        <div class="destination-grid">
+            <!-- Destination cards will be loaded here via JavaScript -->
+        </div>
+        <div class="pagination">
+            <button class="prev-page" disabled>Previous</button>
+            <span class="page-numbers">1 of 5</span>
+            <button class="next-page">Next</button>
+        </div>
+    </section>
+
+    <!-- Newsletter (same as homepage) -->
+    <!-- Footer (same as homepage) -->
+
+    <script src="./script/descript.js"></script>
+</body>
+</html>
